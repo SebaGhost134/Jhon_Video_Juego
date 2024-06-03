@@ -15,6 +15,8 @@ public class Enemigo : MonoBehaviour
     // Cantidad de vidas del enemigo
     public int vidas = 2;
 
+    public float Speed;
+
     void Update()
     {
         // Si no hay un personaje asignado, no hace nada
