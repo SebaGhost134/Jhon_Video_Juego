@@ -37,7 +37,7 @@ public class Enemigo : MonoBehaviour
         if (distance < 1.0f && Time.time > LastShoot + 0.25f)
         {
             // Dispara
-            Shoot();
+           // Shoot();
 
             // Actualiza el tiempo del último disparo
             LastShoot = Time.time;
@@ -45,6 +45,7 @@ public class Enemigo : MonoBehaviour
     }
 
      // Método que controla el disparo del enemigo
+     /*
     private void Shoot()
     {
         Debug.Log("Shoot");
@@ -57,7 +58,7 @@ public class Enemigo : MonoBehaviour
 
         // Establece la dirección de la bala
         bullet.GetComponent<BalaPoder>().SetDirection(direction);
-    }
+    }}*/
 
     // Método llamado cuando el enemigo recibe un golpe
     public void Hit()
